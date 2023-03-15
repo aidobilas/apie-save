@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Kalam:wght@300;400;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Flex:wght@100;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam';
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #2C3333;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    color: #CBE4DE;
+    /* background: #2E4F4F; */
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 30px;
+    /* border: 3px solid #CBE4DE; */
+}
+
+.tekstas-1 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #0E8388;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    text-align: left;
+}
+
+.hobis {
+    font-size: 30px;
+    color: #0E8388;
+    text-align: center;
+}
+
+.hobis-1 {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+    /* background: #2E4F4F; */
+    border: solid #CBE4DE;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1547357812-4a336d835928?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: 300px;
+    cursor: pointer;
+    line-height: 200px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #CBE4DE;
+}
+
+.hobis-1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hobis-2 {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+    /* background: #2E4F4F; */
+    border: solid #CBE4DE;
+    text-align: center;
+    background-image: url(https://p325k7wa.twic.pics/high/one-piece/one-piece-odyssey/00-page-setup/OPOD_header_mobile_new.jpg?twic=v1/cover=750x580/step=10/quality=80);
+    background-size: 300px;
+    cursor: pointer;
+    line-height: 200px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #2E4F4F;
+}
+
+.hobis-2:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hobis-3 {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+    /* background: #2E4F4F; */
+    border: solid #CBE4DE;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 300px;
+    cursor: pointer;
+    line-height: 200px;
+    font-size: 3em;
+    font-weight: bold;
+    /* overflow: hidden; */
+    color: #CBE4DE;
+}
+
+.hobis-3:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* jei be taško rašai foto neina koreguoti  */
+.foto-1 {
+    width: 100%;
+    margin: 20;
+    padding: 20;
+    padding-bottom: 20px;
+}
+/* geras tas dalykas opacity ir cursor*/
+.foto-1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
